@@ -67,6 +67,13 @@ img{
     figure {
         border-radius: 0;
     }
+
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        max-height: 400px; 
+    }
 }
 
 @media (prefers-reduced-motion: reduce) {
